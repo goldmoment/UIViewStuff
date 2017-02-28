@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import UIViewStuff
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        _ = self.view.addGradientLayer([0x30E8BF, 0xFF8235])
     }
 
     override func didReceiveMemoryWarning() {
