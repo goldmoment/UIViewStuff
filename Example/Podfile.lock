@@ -1,0 +1,16 @@
+PODS:
+  - UIViewStuff (0.1.0)
+
+DEPENDENCIES:
+  - UIViewStuff (from `../`)
+
+EXTERNAL SOURCES:
+  UIViewStuff:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UIViewStuff: f03446046e2ad9b2ca915285318a4fd2b9895da8
+
+PODFILE CHECKSUM: 7b9206567b7dee465de48af5805b1897f05812d1
+
+COCOAPODS: 1.1.1

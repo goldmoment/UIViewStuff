@@ -1,0 +1,6 @@
+framework module UIViewStuff {
+  umbrella header "UIViewStuff-umbrella.h"
+
+  export *
+  module * { export * }
+}
