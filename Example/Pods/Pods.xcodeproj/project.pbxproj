@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E9856AA7D2F0E6B13655B33113B315 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C18C4AC816EAD23A1F2ACC6771AEE9B /* UIColorExtension.swift */; };
+		16FA78FEEC043014C6B2C53A5CF14D0B /* USGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC0861D91AAE7BFF833DCD76CBF6BE /* USGradientLayer.swift */; };
+		2CD8DFCA7703D8E6BF6D4D181B0129C8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB63C0F9AFA2A303EB8520B342779BF /* UIColorExtension.swift */; };
+		5414C1779B15DB0D3FEF733E43243743 /* UIViewStuff-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D995F9BC36B582A6B499E120F1A8CF /* UIViewStuff-dummy.m */; };
 		662FB1D007222DEF2B1A1F60BF161D7E /* UIViewStuff-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5101B3A83EA089027D72630316B8B1B /* UIViewStuff-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D5CD678715F524185B442FB1E75E075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8607C631FAE89B430FCB76EEAB0E2E95 /* Pods-UIViewStuff_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 184D95426E4C41E198800328A6F072C4 /* Pods-UIViewStuff_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B9B69B50A9C82E26687CCA873A73641 /* Pods-UIViewStuff_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15AF835FFF1FA8ABCAD686CE3C15D6 /* Pods-UIViewStuff_Example-dummy.m */; };
 		8C82D4586C6CF0FB86485AB6DFE65F3A /* Pods-UIViewStuff_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D48887502E8797684D3C5E851622F2AC /* Pods-UIViewStuff_Tests-dummy.m */; };
-		9AC64C6F9E600B3BB65E67EAD4586D47 /* UIViewStuff-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D995F9BC36B582A6B499E120F1A8CF /* UIViewStuff-dummy.m */; };
 		B2015214895D6DC8E1B97F86FFC53D14 /* Pods-UIViewStuff_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 183C0591D0E38DC1956F49DEEE8E0C20 /* Pods-UIViewStuff_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3C47282A9E7C5F977C9AC6A2CD96254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E275DF019965A4EA183659D306F0F8F2 /* USGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6709F4739D624EA23ED07AA35164075 /* USGradientLayer.swift */; };
+		C45B28D9C4873B4FC312C8875B3ECCB8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DD6794970046E8C03B162117B1427 /* UIViewExtension.swift */; };
 		FE9251D28274E7EC793B5BDD53C14F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		04780F148F6D5EF59C4192BBB7C02D2D /* Pods-UIViewStuff_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIViewStuff_Example-resources.sh"; sourceTree = "<group>"; };
-		0C18C4AC816EAD23A1F2ACC6771AEE9B /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		0F15236655CF13A785245350A7364515 /* Pods-UIViewStuff_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UIViewStuff_Tests.modulemap"; sourceTree = "<group>"; };
 		183C0591D0E38DC1956F49DEEE8E0C20 /* Pods-UIViewStuff_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIViewStuff_Example-umbrella.h"; sourceTree = "<group>"; };
 		184D95426E4C41E198800328A6F072C4 /* Pods-UIViewStuff_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIViewStuff_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -40,11 +40,13 @@
 		22879F62B17287E150CAC8464B291FE0 /* UIViewStuff.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIViewStuff.modulemap; sourceTree = "<group>"; };
 		22D995F9BC36B582A6B499E120F1A8CF /* UIViewStuff-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewStuff-dummy.m"; sourceTree = "<group>"; };
 		24CA30B124917DCF4E93165F8C24AF2F /* Pods-UIViewStuff_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIViewStuff_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3ABC0861D91AAE7BFF833DCD76CBF6BE /* USGradientLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = USGradientLayer.swift; sourceTree = "<group>"; };
 		4102852B5AE17DD64077C7FF1F74F93E /* Pods-UIViewStuff_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIViewStuff_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D8A1E1DA6DD7BCBF24D51CBD21F4465 /* Pods-UIViewStuff_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIViewStuff_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		51525524B7BBD42F611557039FB10964 /* Pods-UIViewStuff_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIViewStuff_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		55CBE141137238373DCB3207E787E4C8 /* Pods-UIViewStuff_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIViewStuff_Example.release.xcconfig"; sourceTree = "<group>"; };
 		592A4A447D25D4B4F8D3BDE8F74B1517 /* UIViewStuff.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIViewStuff.xcconfig; sourceTree = "<group>"; };
+		5C2DD6794970046E8C03B162117B1427 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		5F207620C52202A48917AE4A3B9BC4AE /* UIViewStuff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIViewStuff.framework; path = UIViewStuff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6363D0B5BA94B1F2BA4EA1842F25CD2A /* Pods_UIViewStuff_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIViewStuff_Example.framework; path = "Pods-UIViewStuff_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7421541A1E47D0170F9AEA3EB3E9DC87 /* Pods-UIViewStuff_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIViewStuff_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -59,9 +61,9 @@
 		BFA368F906491070BD2F27C974A31414 /* Pods-UIViewStuff_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIViewStuff_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF6CB70876C2682CBDB4D94C9B727011 /* UIViewStuff-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewStuff-prefix.pch"; sourceTree = "<group>"; };
+		CFB63C0F9AFA2A303EB8520B342779BF /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		D0180A608305AFAB2E218197E8886429 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D48887502E8797684D3C5E851622F2AC /* Pods-UIViewStuff_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIViewStuff_Tests-dummy.m"; sourceTree = "<group>"; };
-		E6709F4739D624EA23ED07AA35164075 /* USGradientLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = USGradientLayer.swift; sourceTree = "<group>"; };
 		F8C2A73AB70ED52D95BE7A6814DFC630 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCD310FF5864DD95206320BA56338EE2 /* Pods_UIViewStuff_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIViewStuff_Tests.framework; path = "Pods-UIViewStuff_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,11 +96,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		099E638F92515BE79F8C79EB0102B0E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFB63C0F9AFA2A303EB8520B342779BF /* UIColorExtension.swift */,
+				5C2DD6794970046E8C03B162117B1427 /* UIViewExtension.swift */,
+				3ABC0861D91AAE7BFF833DCD76CBF6BE /* USGradientLayer.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		1BC865AACE93A6EA2485E2DAB1A1E68C /* UIViewStuff */ = {
 			isa = PBXGroup;
 			children = (
 				5A0C4A0FA31B2AD76AB402CB5D14E7DF /* Support Files */,
-				E6449B3EDC8D0ACDF95099E3138E5EA1 /* UIViewStuff */,
+				93B6100691749880062B349E44D9534E /* UIViewStuff */,
 			);
 			name = UIViewStuff;
 			path = ../..;
@@ -154,6 +167,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		93B6100691749880062B349E44D9534E /* UIViewStuff */ = {
+			isa = PBXGroup;
+			children = (
+				099E638F92515BE79F8C79EB0102B0E8 /* Classes */,
+			);
+			name = UIViewStuff;
+			path = UIViewStuff;
+			sourceTree = "<group>";
+		};
 		961719211F04B0260CA85CA520941815 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,25 +228,6 @@
 			);
 			name = "Pods-UIViewStuff_Example";
 			path = "Target Support Files/Pods-UIViewStuff_Example";
-			sourceTree = "<group>";
-		};
-		DE3333A4B3CE80D5EF420C92DEF1FE55 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0C18C4AC816EAD23A1F2ACC6771AEE9B /* UIColorExtension.swift */,
-				E6709F4739D624EA23ED07AA35164075 /* USGradientLayer.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E6449B3EDC8D0ACDF95099E3138E5EA1 /* UIViewStuff */ = {
-			isa = PBXGroup;
-			children = (
-				DE3333A4B3CE80D5EF420C92DEF1FE55 /* Classes */,
-			);
-			name = UIViewStuff;
-			path = UIViewStuff;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 054DF15A4934257C623D6D4DE6D981B4 /* Build configuration list for PBXNativeTarget "UIViewStuff" */;
 			buildPhases = (
-				ED559AC2C41D451BC7203D1DFE37BF06 /* Sources */,
+				D846A7F3168B057EF9EAAC2D8FFFEEB8 /* Sources */,
 				5563F3D99BC4D8AB8E597788EE599A2C /* Frameworks */,
 				621B6BEDA5873B6FA10F81FAC285BEFA /* Headers */,
 			);
@@ -346,21 +349,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D846A7F3168B057EF9EAAC2D8FFFEEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD8DFCA7703D8E6BF6D4D181B0129C8 /* UIColorExtension.swift in Sources */,
+				C45B28D9C4873B4FC312C8875B3ECCB8 /* UIViewExtension.swift in Sources */,
+				5414C1779B15DB0D3FEF733E43243743 /* UIViewStuff-dummy.m in Sources */,
+				16FA78FEEC043014C6B2C53A5CF14D0B /* USGradientLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA74BE3CD9F817ACC1E95AB1167327FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8B9B69B50A9C82E26687CCA873A73641 /* Pods-UIViewStuff_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED559AC2C41D451BC7203D1DFE37BF06 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09E9856AA7D2F0E6B13655B33113B315 /* UIColorExtension.swift in Sources */,
-				9AC64C6F9E600B3BB65E67EAD4586D47 /* UIViewStuff-dummy.m in Sources */,
-				E275DF019965A4EA183659D306F0F8F2 /* USGradientLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

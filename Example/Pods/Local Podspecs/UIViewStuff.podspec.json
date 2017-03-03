@@ -1,8 +1,8 @@
 {
   "name": "UIViewStuff",
   "version": "0.1.0",
-  "summary": "A short description of UIViewStuff.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Essential extentions for UIView.",
+  "description": "Essential extentions for UIView. Check it out",
   "homepage": "https://github.com/goldmoment/UIViewStuff",
   "license": {
     "type": "MIT",
